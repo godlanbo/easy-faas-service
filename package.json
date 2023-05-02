@@ -1,0 +1,30 @@
+{
+  "name": "easy-faas-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --watch src -e ts --exec 'tsc && cd ./dist && node index.js'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/koa": "^2.13.6",
+    "@types/koa-bodyparser": "^4.3.10",
+    "@types/koa-json": "^2.0.20",
+    "@types/koa-router": "^7.4.4",
+    "@types/koa2-cors": "^2.0.2",
+    "@types/node": "^18.16.3",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "koa": "^2.14.2",
+    "koa-bodyparser": "^4.4.0",
+    "koa-json": "^2.0.2",
+    "koa-router": "^12.0.0",
+    "koa2-cors": "^2.0.6",
+    "nodemon": "^2.0.22"
+  }
+}
