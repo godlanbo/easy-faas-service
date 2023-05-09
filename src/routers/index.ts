@@ -4,7 +4,7 @@ import { registeRouter } from '../common/utils'
 import { jwtAuthService } from '../services/jwt'
 
 const router = new Router({
-  prefix: '/api'
+  prefix: '/faas'
 })
 
 registeRouter(router, UserRouter)
